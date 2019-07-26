@@ -9,6 +9,7 @@ export class Home extends React.Component {
 		return (
 			<div className="text-center mt-5">
 				<Navbar />
+				<Jumbotron />
 			</div>
 		);
 	}
