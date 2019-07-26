@@ -11,10 +11,13 @@ export class Home extends React.Component {
 			<div className="text-center mt-5">
 				<Navbar />
 				<Jumbotron />
-				<Card />
-				<Card />
-				<Card />
-				<Card />
+
+				<div className="row">
+					<Card />
+					<Card />
+					<Card />
+					<Card />
+				</div>
 			</div>
 		);
 	}
